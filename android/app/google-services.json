@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "544016935933",
+    "firebase_url": "https://laundary-app-272a6-default-rtdb.firebaseio.com",
+    "project_id": "laundary-app-272a6",
+    "storage_bucket": "laundary-app-272a6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544016935933:android:16ef0ee654a254fa888794",
+        "android_client_info": {
+          "package_name": "com.example.nimrapj"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBABKCxiu17PBwyDQm52jNDM7CkoOF9UxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544016935933:android:fa51f6b9a808129c888794",
+        "android_client_info": {
+          "package_name": "com.example.vendor_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBABKCxiu17PBwyDQm52jNDM7CkoOF9UxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544016935933:android:b0279d0acc775314888794",
+        "android_client_info": {
+          "package_name": "com.fastlaundry.customerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBABKCxiu17PBwyDQm52jNDM7CkoOF9UxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services"
+}
+
+android {
+    namespace "com.example.vendor_app"
+    compileSdkVersion 36
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+        coreLibraryDesugaringEnabled true
+
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId "com.example.vendor_app"
+//        minSdkVersion flutter.minSdkVersion
+        minSdkVersion flutter.minSdkVersion
+        targetSdkVersion 34
+        versionCode flutter.versionCode.toInteger()
+        versionName flutter.versionName
+    }
+    namespace "com.example.vendor_app"
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation(platform("com.google.firebase:firebase-bom:33.13.0"))
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.4'
+    // Add these lines for compatible androidx.core versions
+    implementation 'androidx.core:core:1.10.1'
+    implementation 'androidx.core:core-ktx:1.10.1'
+}
+
+apply plugin: 'com.google.gms.google-services'

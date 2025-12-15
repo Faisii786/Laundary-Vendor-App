@@ -1,0 +1,2 @@
+G:/laundry app/vendor_app/android/app/.cxx/RelWithDebInfo/1o2g4142/armeabi-v7a/CMakeFiles/edit_cache.dir
+G:/laundry app/vendor_app/android/app/.cxx/RelWithDebInfo/1o2g4142/armeabi-v7a/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+G:/laundry app/vendor_app/android/app/.cxx/Debug/4g2a3p2s/x86/CMakeFiles/edit_cache.dir
+G:/laundry app/vendor_app/android/app/.cxx/Debug/4g2a3p2s/x86/CMakeFiles/rebuild_cache.dir
