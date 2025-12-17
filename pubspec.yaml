@@ -62,7 +62,8 @@ dependencies:
   path_provider: ^2.0.15
   # for accessing device storage
 #  share_plus: ^4.0.10                # for sharing files (WhatsApp, Email, etc)
-  flutter_web_plugins: any
+  flutter_web_plugins:
+    sdk: flutter
 dev_dependencies:
   flutter_test:
     sdk: flutter

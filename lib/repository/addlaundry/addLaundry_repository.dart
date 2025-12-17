@@ -30,7 +30,7 @@ class AddlaundryRepository {
     // }
     // (((((((((((())))))))))))
 
-    const url = 'http://10.0.2.2:8000/user_api/getzone.php';
+    const url = 'http://93.127.202.7:8080/user_api/getzone.php';
     dynamic responseJson;
     try {
       print("📡 Sending GET (POST) request to: $url");
@@ -70,8 +70,8 @@ class AddlaundryRepository {
   Future<dynamic> addlaundapi(Map<String, dynamic> body) async {
     // (((((((((((())))))))))))
 
-    const url = "http://10.0.2.2:8000/laundry_api/add_laundry.php";
-    // 'https://laundry.saleselevation.tech/laundry_api/add_laundry.php';
+    const url = "http://93.127.202.7:8080/laundry_api/add_laundry.php";
+    // 'http://93.127.202.7:8080/laundry_api/add_laundry.php';
     dynamic responseJson;
     try {
       print("📡 Sending GET (POST) request to: $url");
