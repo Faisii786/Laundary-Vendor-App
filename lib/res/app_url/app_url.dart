@@ -2,7 +2,7 @@ class AppUrl {
   // For iOS Simulator use: 'http://localhost:8000/'
   // For Android Emulator use: 'http://93.127.202.7:8080/'
   // For Physical Device use your computer's IP: 'http://YOUR_IP:8000/'
-  static const String baseUrl = 'http://93.127.202.7:8080/';
+  static const String baseUrl = 'http://93.127.202.7/';
   static const String loginApi = '$baseUrl/laundry_api/laundry_login.php';
   static const String signupApi = '$baseUrl/laundry_api/laundry_reg.php';
   static const String pickUpApi = '$baseUrl/laundry_api/laundry_orders.php';

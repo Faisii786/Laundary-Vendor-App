@@ -43,10 +43,10 @@ class LoginViewMOdel extends GetxController {
 
     // Construct the API URL with latitude and longitude
     // String apiUrl =
-    //     'http://93.127.202.7:8080/user_api/get_laundry_by_use.php'
+    //     'http://93.127.202.7/user_api/get_laundry_by_use.php'
     //     '?latitude=${position?.latitude}&longitude=${position?.longitude}';
     // String apiUrl =
-    //     'http://93.127.202.7:8080/user_api/get_laundry_by_use.php'
+    //     'http://93.127.202.7/user_api/get_laundry_by_use.php'
     //     '?latitude=24.92994926038695&longitude=67.07463296801761';
 
     // // Send the request to the API
@@ -74,7 +74,7 @@ class LoginViewMOdel extends GetxController {
     )
         .then((value) async {
       // String apiUrl =
-      //     'http://93.127.202.7:8080/user_api/get_laundry_by_use.php'
+      //     'http://93.127.202.7/user_api/get_laundry_by_use.php'
       //     '?latitude=24.92994926038695&longitude=67.07463296801761';
 
       // Send the request to the API

@@ -5,7 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:vendor_app/res/app_url/app_url.dart';
 
 class AcceptOrderViewModel extends GetxController {
-  // final String _endpoint = 'http://93.127.202.7:8080/laundry_api/change_status.php';
+  // final String _endpoint = 'http://93.127.202.7/laundry_api/change_status.php';
   final String _endpoint = AppUrl.orderconfirmApi;
   Future<String?> _getToken() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
